@@ -1,0 +1,30 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  float: left;
+}
+
+#chart {
+  position: relative;
+}
+
+#chart path {
+  stroke: #fff;
+}
+
+#name {
+  position: fixed;
+  width: 100vw;
+  margin-top: 45vh;
+  z-index: -1;
+  text-align: center;
+  font-size: 2.5em;
+  color: #666;
+}
